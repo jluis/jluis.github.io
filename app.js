@@ -39,7 +39,9 @@ if (annyang){
     'relay 2': relayTwo,
     'relay2': relayTwo,
     'two': relayTwo,
-    '2': relayTwo
+    '2': relayTwo,
+    'uno': relayOne,
+    'dos': relayTwo,
   };
   
   // with annyang.debug below these call backs could be removed I think . . .
@@ -56,7 +58,7 @@ if (annyang){
   
   annyang.debug();
   annyang.addCommands(commands);
-  annyang.setLanguage('en');
+  annyang.setLanguage('es-ES');
   annyang.start();
 };
 
