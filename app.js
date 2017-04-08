@@ -58,7 +58,7 @@ if (annyang){
   
   annyang.debug();
   annyang.addCommands(commands);
-  annyang.setLanguage('es-ES');
+  annyang.setLanguage('en');
   annyang.start();
 };
 
