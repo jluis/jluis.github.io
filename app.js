@@ -12,7 +12,7 @@ if (annyang){
  
   var relayOne = function(){
     console.log('relay One');
-    relayClick._writeCharacteristic(relayClick.characteristic1UUID, new Uint8Array([1]))
+    relayClick._writeCharacteristic(relayClick.characteristic1UUID, new Uint8Array([4]))
    .then(() => console.log('wrote 1'))
    .catch(error => {console.log('write error');
    });
@@ -20,7 +20,7 @@ if (annyang){
   
   var relayTwo = function(){
    console.log('relay Two'); 
-   relayClick._writeCharacteristic(relayClick.characteristic1UUID, new Uint8Array([2]))
+   relayClick._writeCharacteristic(relayClick.characteristic1UUID, new Uint8Array([7]))
    .then(() => console.log('wrote 2'))
    .catch(error => {console.log('write error');
    });
